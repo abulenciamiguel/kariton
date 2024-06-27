@@ -4,7 +4,7 @@
 nextflow.enable.dsl=2
 
 
-// import subworkflows
+// import
 include {barcodeTocentralID} from '../modules/centralID.nf'
 include {flaggedMixsite} from '../modules/extractMixsite.nf'
 include {primerFlagging} from '../modules/primerRegions.nf'

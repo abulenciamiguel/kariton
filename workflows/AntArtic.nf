@@ -2,7 +2,7 @@
 nextflow.enable.dsl=2
 
 
-// import subworkflows
+// import
 include {nextcladeDL} from '../modules/nextcladeDL.nf'
 include {nextcladeLineage} from '../modules/nextcladeLineage.nf'
 include {usherAlign} from '../modules/usherAlign.nf'
